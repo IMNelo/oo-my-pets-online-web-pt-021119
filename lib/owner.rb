@@ -57,10 +57,10 @@ class Owner
     pets[:fishes].each { |fish| fish.mood = "happy"}
   end
 
-  #keeping going here
-
   def list_pets
     "I have #{pets[:fishes].length} fish, #{pets[:dogs].length} dog(s), and #{pets[:cats].length} cat(s)."
   end
+
+  
 
 end
