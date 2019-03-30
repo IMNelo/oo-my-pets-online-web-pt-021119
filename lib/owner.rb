@@ -66,7 +66,7 @@ class Owner
       collection.collect do |pet|
         pet.mood = "nervous"
       end
-      array.clear
+      collection.clear
     end
   end
     #pets.clear.each { |pet| pet.mood = "nervous"}
