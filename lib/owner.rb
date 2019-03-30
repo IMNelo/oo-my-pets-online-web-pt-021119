@@ -62,7 +62,7 @@ class Owner
   end
 
   def sell_pets
-    pets.clear { |pet_sold| pet_sold.empty? = "nervous"}
+    pets.each.clear { |pet_sold| pet_sold.mood = "nervous"}
   end
 
 
