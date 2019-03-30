@@ -70,7 +70,7 @@ class Owner
     end
   end
     #pets.clear.each { |pet| pet.mood = "nervous"}
-    
+
   end
 
 
